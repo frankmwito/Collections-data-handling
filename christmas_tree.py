@@ -10,7 +10,15 @@ class ChristmasTree:
         # print the top part of the tree
         for i in range(1, self.n + 1):
             print('' * (self.n - i) + '*' * (2 * i - 1))
-          
+            # print the bottom part of the tree
+            for i in range(1, self.n + 1):
+                print('' * (self.n - i) + '*' * (2 * i - 1))
+                # print the trunk of the tree
+                for i in range(1, self.n + 1):
+                    print('' * (self.n - i) + '*' * (2 * i - 1))
+                    # print the base of the tree
+                    for i in range(1, self.n + 1):
+                        print('' * (self.n - i) + '*' * (2 * i - 1))
 
 def get_user_input():
     while True:

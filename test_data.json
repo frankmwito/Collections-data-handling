@@ -1,0 +1,17 @@
+[
+    {
+        "username": "frank",
+        "password": "24",
+        "final_grade": 23
+    },
+    {
+        "username": "john",
+        "password": "34",
+        "final_grade": 345
+    },
+    {
+        "username": "joy",
+        "password": "890",
+        "final_grade": 2
+    }
+]
